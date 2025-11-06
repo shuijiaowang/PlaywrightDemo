@@ -5,7 +5,8 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "bili": "node src/playwright/bilibili.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.15.3",
     "node-cron": "^4.2.1",
+    "playwright": "^1.56.1",
     "sequelize": "^6.37.7",
     "uuid": "^13.0.0"
   },
